@@ -1,5 +1,7 @@
 print("게임을 시작합니다")	
-print("테트리스 시작")	
+print("테트리스 시작")
+
+for i in range(10):
 print("1. 오른쪽 2. 왼쪽 3. 바꾸기")	
 number = input("숫자를 입력하세요: ")	
 print("당신이 입력한 숫자는?", number)	
